@@ -1,0 +1,442 @@
+
+/* Start of CSS of the HTMl Structure */
+
+.bee-row,
+.bee-row-content {
+	position: relative}
+.bee-button .content,
+.bee-html-block {
+	text-align: center}
+.bee-row-1,
+.bee-row-10,
+.bee-row-2,
+.bee-row-3,
+.bee-row-4,
+.bee-row-5,
+.bee-row-6,
+.bee-row-7,
+.bee-row-8,
+.bee-row-9 {
+	background-repeat: no-repeat}
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif}
+a {
+	color: #0068a5}
+* {
+	box-sizing: border-box}
+body, h1, h2, h3, p {
+	margin: 0}
+.bee-row-content {
+	max-width: 1440px;
+	margin: 0 auto;
+	display: flex}
+.bee-row-content .bee-col-w2 {
+	flex-basis: 17%}
+.bee-row-content .bee-col-w4 {
+	flex-basis: 33%}
+.bee-row-content .bee-col-w5 {
+	flex-basis: 42%}
+.bee-row-content .bee-col-w7 {
+	flex-basis: 58%}
+.bee-row-content .bee-col-w8 {
+	flex-basis: 67%}
+.bee-row-content .bee-col-w12 {
+	flex-basis: 100%}
+.bee-button a,
+.bee-icon .bee-icon-label-right a {
+	text-decoration: none}
+.bee-divider,
+.bee-image {
+	overflow: auto}
+.bee-divider .center,
+.bee-image .bee-center {
+	margin: 0 auto}
+.bee-row-2 .bee-col-1 .bee-block-1,
+.bee-row-4 .bee-col-1 .bee-block-1,
+.bee-row-4 .bee-col-2 .bee-block-1,
+.bee-row-5 .bee-col-1 .bee-block-2,
+.bee-row-9 .bee-col-1 .bee-block-1,
+.bee-row-9 .bee-col-2 .bee-block-1,
+.bee-row-9 .bee-col-3 .bee-block-1,
+.bee-row-9 .bee-col-4 .bee-block-1,
+.bee-row-9 .bee-col-5 .bee-block-1,
+.bee-row-9 .bee-col-6 .bee-block-1 {
+	width: 100%}
+.bee-icon,
+.bee-icon .bee-icon-image,
+.bee-icon .bee-icon-label-right {
+	display: inline-block}
+.bee-icon {
+	vertical-align: middle}
+.bee-icon .bee-icon-image {
+	vertical-align: middle;
+	margin-right: -4px}
+.bee-image img {
+	display: block;
+	width: 100%}
+.bee-text {
+	overflow-wrap: anywhere}
+@media (max-width:768px) {
+	.bee-row-content:not(.no_stack) {
+display: block
+	}}
+.bee-row-1 .bee-row-content,
+.bee-row-10 .bee-row-content,
+.bee-row-2 .bee-row-content,
+.bee-row-3 .bee-row-content,
+.bee-row-4 .bee-row-content,
+.bee-row-5 .bee-row-content,
+.bee-row-6 .bee-row-content,
+.bee-row-7 .bee-row-content,
+.bee-row-8 .bee-row-content,
+.bee-row-9 .bee-row-content {
+	background-repeat: no-repeat;
+	color: #000}
+.bee-row-1 .bee-col-1,
+.bee-row-10 .bee-col-1,
+.bee-row-2 .bee-col-1,
+.bee-row-2 .bee-col-2,
+.bee-row-3 .bee-col-1,
+.bee-row-4 .bee-col-1,
+.bee-row-4 .bee-col-2,
+.bee-row-5 .bee-col-1,
+.bee-row-6 .bee-col-1,
+.bee-row-7 .bee-col-1,
+.bee-row-8 .bee-col-1,
+.bee-row-9 .bee-col-1,
+.bee-row-9 .bee-col-2,
+.bee-row-9 .bee-col-3,
+.bee-row-9 .bee-col-4,
+.bee-row-9 .bee-col-5,
+.bee-row-9 .bee-col-6 {
+	padding-bottom: 5px;
+	padding-top: 5px}
+.bee-row-2 .bee-col-2 .bee-block-1,
+.bee-row-2 .bee-col-2 .bee-block-2,
+.bee-row-9 .bee-col-1 .bee-block-2,
+.bee-row-9 .bee-col-1 .bee-block-3,
+.bee-row-9 .bee-col-1 .bee-block-4,
+.bee-row-9 .bee-col-2 .bee-block-2,
+.bee-row-9 .bee-col-2 .bee-block-3,
+.bee-row-9 .bee-col-2 .bee-block-4,
+.bee-row-9 .bee-col-3 .bee-block-2,
+.bee-row-9 .bee-col-3 .bee-block-3,
+.bee-row-9 .bee-col-3 .bee-block-4,
+.bee-row-9 .bee-col-4 .bee-block-2,
+.bee-row-9 .bee-col-4 .bee-block-3,
+.bee-row-9 .bee-col-4 .bee-block-4,
+.bee-row-9 .bee-col-5 .bee-block-2,
+.bee-row-9 .bee-col-5 .bee-block-3,
+.bee-row-9 .bee-col-5 .bee-block-4,
+.bee-row-9 .bee-col-6 .bee-block-2,
+.bee-row-9 .bee-col-6 .bee-block-3,
+.bee-row-9 .bee-col-6 .bee-block-4 {
+	padding: 10px}
+.bee-row-2 .bee-col-2 .bee-block-3 {
+	padding: 10px;
+	text-align: left}
+.bee-row-8 .bee-col-1 .bee-block-4 {
+	width: 100%;
+	text-align: center;
+	padding: 10px}
+.bee-row-9 .bee-col-1 .bee-block-5,
+.bee-row-9 .bee-col-2 .bee-block-5,
+.bee-row-9 .bee-col-3 .bee-block-5,
+.bee-row-9 .bee-col-4 .bee-block-5,
+.bee-row-9 .bee-col-5 .bee-block-5,
+.bee-row-9 .bee-col-6 .bee-block-5 {
+	padding: 10px;
+	text-align: center}
+.bee-row-10 .bee-col-1 .bee-block-1 {
+	color: #9d9d9d;
+	font-family: inherit;
+	font-size: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: center}
+.bee-row-10 .bee-col-1 .bee-block-1 .bee-icon-image {
+	padding: 5px 6px 5px 5px}
+.bee-row-10 .bee-col-1 .bee-block-1 .bee-icon {
+	margin-left: 0;
+	margin-right: 0}
+/* End of CSS of the HTMl Structure */
+
+/* Start of CSS of the Picture Rotator */
+
+.piclist {
+	padding: 5px;
+	float: left;}.piclist li {
+	display: inline-block;
+	width: 85px;
+	height: 85px;
+	border: #eee;
+	border-radius: 10px !important;
+	margin: 0 5px;
+	padding: 3px;
+	box-shadow: rgb(0 0 0 / 40%) 0 0 5px !important;}
+.piclist li img {
+	width: 100%;
+	height: auto;}
+/* custom style */
+.picZoomer-pic-wp,
+.picZoomer-zoom-wp {
+	border: 1px solid #fff;}
+.picZoomer {
+	position: relative;}
+.picZoomer-pic-wp {
+	position: relative;
+	overflow: hidden;}
+.picZoomer-pic-wp:hover .picZoomer-cursor {
+	display: block;}
+.picZoomer-zoom-pic {
+	position: absolute;
+	top: 0;
+	left: 0;}
+.picZoomer-pic {
+	display:none;
+	width: 100%;
+	height: 100%;}
+.picZoomer-zoom-wp {
+	display: none !important; /* remove important to display zoomed image */
+	position: absolute;
+	z-index: 999;
+	overflow: hidden;}
+.picZoomer-cursor {
+	display: none !important; /* remove important to display zoomed image */
+	cursor: crosshair;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 5%;
+	border: 1px solid #eee;
+	background-color: rgba(0, 0, 0, .1);}
+/* End of CSS of the Picture Rotator */
+
+/* Start of CSS of the Tab Container */
+
+.tab-wrap {
+	-webkit-transition: 0.3s box-shadow ease;
+	transition: 0.3s box-shadow ease;
+	border-radius: 6px;
+	max-width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	position: relative;
+	list-style: none;
+	background-color: #fff;
+	margin: 40px 0;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.tab-wrap:hover {
+	/* box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19); */ /* This will show shadow beneth the Tab container */
+}
+
+.tab {
+	display: none;
+}
+
+.tab:checked:nth-of-type(1)~.tab__content:nth-of-type(1) {
+	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in, 0.2s transform ease;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+	text-shadow: 0 0 0;
+	padding:25px;
+}
+
+.tab:checked:nth-of-type(2)~.tab__content:nth-of-type(2) {
+	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in, 0.2s transform ease;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+	text-shadow: 0 0 0;
+	padding:25px;
+}
+
+.tab:checked:nth-of-type(3)~.tab__content:nth-of-type(3) {
+	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in, 0.2s transform ease;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+	text-shadow: 0 0 0;
+	padding:25px;
+}
+
+.tab:checked:nth-of-type(4)~.tab__content:nth-of-type(4) {
+	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in, 0.2s transform ease;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+	text-shadow: 0 0 0;
+	padding:25px;
+}
+.tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5) {
+	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in, 0.2s transform ease;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+	text-shadow: 0 0 0;
+	padding:25px;
+}
+.tab:checked:nth-of-type(6) ~ .tab__content:nth-of-type(6) {
+	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in, 0.2s transform ease;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+	text-shadow: 0 0 0;
+	padding:25px;
+}
+.tab:checked:nth-of-type(7) ~ .tab__content:nth-of-type(7) {
+	opacity: 1;
+	-webkit-transition: 0.5s opacity ease-in, 0.2s transform ease;
+	transition: 0.5s opacity ease-in, 0.2s transform ease;
+	position: relative;
+	top: 0;
+	z-index: 100;
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+	text-shadow: 0 0 0;
+	padding:25px;
+}
+.tab:first-of-type:not(:last-of-type)+label {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.tab:not(:first-of-type):not(:last-of-type)+label {
+	border-radius: 0;
+}
+
+.tab:last-of-type:not(:first-of-type)+label {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.tab:checked+label {
+	background-color: #fff;
+	box-shadow: 0 -1px 0 #fff inset;
+	cursor: default;
+}
+
+.tab:checked+label:hover {
+	box-shadow: 0 -1px 0 #fff inset;
+	background-color: #fff;
+}
+
+.tab+label {
+	width: 100%;
+	box-shadow: 0 -1px 0 #eee inset;
+	border-radius: 6px 6px 0 0;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	color: #333;
+	-webkit-box-flex: 3;
+	-webkit-flex-grow: 3;
+	-ms-flex-positive: 3;
+	flex-grow: 3;
+	text-align: center;
+	background-color: #f2f2f2;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-align: center;
+	-webkit-transition: 0.3s background-color ease, 0.3s box-shadow ease;
+	transition: 0.3s background-color ease, 0.3s box-shadow ease;
+	height: 50px;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+@media (min-width:768px) {
+
+	.tab+label {
+		width: auto;
+	}
+}
+
+.tab+label:hover {
+	background-color: #f9f9f9;
+	box-shadow: 0 1px 0 #f4f4f4 inset;
+}
+
+.tab__content {
+	padding: 10px 25px;
+	background-color: transparent;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	opacity: 0;
+	left: 0;
+	-webkit-transform: translateY(-3px);
+	transform: translateY(-3px);
+	border-radius: 6px;
+	text-align:left;
+}
+
+/* Boring Styles */
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1, h2 {
+	margin: 0;
+	color: #444;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1em;
+	margin-bottom: 30px;
+}
+
+p {
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+/* End of CSS of the Tab Container */
